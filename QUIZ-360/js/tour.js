@@ -26,22 +26,21 @@ infospot2.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9
 panorama.add(infospot2);
 
 //3. cuadro mueble
+
 var infospot3 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot3.position.set(500 ,22 , 69);
-infospot3.addHoverText('La biblioteca multimedia ofrece una opción de procesamiento, almacenamiento y transmisión de medios para todos los materiales de audio y video. Utilice la biblioteca multimedia para crear, ver, editar y administrar todo el contenido de audio y video.', -60);
-infospot3.element.innerHTML = `
-    <div class="" style="">
-        <iframe width="720" height="480" src="https://www.youtube.com/embed/e-lQYKYbOtI"></iframe>        
-    </div>`;
+infospot3.addHoverText('Este cuadro abstracto en tonos oscuros presenta formas difusas que crean profundidad y misterio. Su diseño minimalista invita a la reflexión, resaltando lo sutil y lo intangible. Una pieza contemporánea que transmite serenidad y sofisticación.', -60);
+infospot3.element.innerHTML = '<img src="imagenes/marco.jpg" width="300px" height="140"><div style="background-color:  rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Este cuadro abstracto en tonos oscuros presenta formas difusas que crean profundidad y misterio. Su diseño minimalista invita a la reflexión, resaltando lo sutil y lo intangible. Una pieza contemporánea que transmite serenidad y sofisticación.</div>';
 panorama.add(infospot3);
 
 //4. silla blanca
-var infospot4 = new PANOLENS.Infospot(200, PANOLENS.DataImage.Info);
-var infospot4 = new PANOLENS.Infospot(200, 'imagenes/info.png');
+var infospot4 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot4.position.set(360 ,-257 , 499);
-infospot4.addHoverText('Una máquina que obedece órdenes para efectuar cálculos y operaciones lógicas en poco tiempo. Es un dispositivo que puede recibir, almacenar, procesar información y generar resultados o respuestas.', -60);
-infospot4.element.innerHTML = '<img src="imagenes/logo.png" width="320px" height="240"><div style="background-color: rgba(69, 148, 208, 1); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 320px;">Una máquina que obedece órdenes para efectuar cálculos y operaciones lógicas en poco tiempo. Es un dispositivo que puede recibir, almacenar, procesar información y generar resultados o respuestas.</div>';
+infospot4.addHoverText('Esta silla de diseño contemporáneo cuenta con cojines en tonos neutros que aportan confort y suavidad. Su estructura de madera natural y líneas minimalistas combinan estilo y funcionalidad. Ideal para añadir sofisticación y calidez a cualquier espacio.', -60);
+infospot4.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;"> Esta silla de diseño contemporáneo cuenta con cojines en tonos neutros que aportan confort y suavidad. Su estructura de madera natural y líneas minimalistas combinan estilo y funcionalidad. Ideal para añadir sofisticación y calidez a cualquier espacio. </div>';
 panorama.add(infospot4);
+
+
 
 //5.Lampara
 var infospot5 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
@@ -73,28 +72,24 @@ infospot7.addEventListener('click', function() {
 panorama.add(infospot7);
 
 //8.Sillon
-
 var infospot8 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot8.position.set(3 ,-284 , 500);
-infospot8.addHoverText('Netflix videos', -60);
-infospot8.element.innerHTML = `
-    <div class="" style="">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/h-2LIjOt0rA?si=wUR9UljqghvIgUzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>       
-    </div>
-`;
+infospot8.addHoverText('Este cuadro abstracto en tonos oscuros presenta formas difusas que crean profundidad y misterio. Su diseño minimalista invita a la reflexión, resaltando lo sutil y lo intangible. Una pieza contemporánea que transmite serenidad y sofisticación.', -60);
+infospot8.element.innerHTML = '<img src="imagenes/sofa.jpg" width="300px" height="240"><div style="background-color:  rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Este sillón, tapizado con cuero de alta calidad, es una pieza única  gracias a su diseño y acabado artesanal. Su suavidad y durabilidad, lo convierten en un elemento ideal para ofrecer a nuestros huéspedes una experiencia de lujo y confort.</div>';
 panorama.add(infospot8);
 
-
-viewer = new PANOLENS.Viewer({ container: container });
-viewer.add(panorama);
 
 
 //9 .Guitarra
 var infospot9 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot9.position.set(-400 ,-500 , 365);
-infospot9.addHoverText('Un audio MP3 multimedial...', -60);
-infospot9.element.innerHTML = '<div style="color:#000; border-radius: 5px; padding: 10px; font-size: 14px; width: 200px;"><audio controls><source src="audios/audio1.mp3" type="audio/mpeg"></audio></div>';
+infospot9.addHoverText('Esta guitarra de diseño clásico, con un acabado de madera de alta calidad, añade un toque musical y elegante al hotel. Su tonalidad cálida y acústica excepcional la convierten en una pieza única que complementa el ambiente sofisticado del espacio.', -60);
+infospot9.element.innerHTML = `
+    <div class="" style="">
+        <iframe width="520" height="280" src="https://www.youtube.com/embed/NyuRqKgP2T4?si=76RI9_tzVy53nTLV"></iframe>        
+    </div>`;
 panorama.add(infospot9);
+
 
 
 //10. Mueble
@@ -103,3 +98,9 @@ infospot10.position.set(500 ,-219 , 265);
 infospot10.addHoverText('Un video beam o proyector es un dispositivo electrónico que recibe una señal de video desde una fuente externa (como un computador, un reproductor de DVD, un celular o una consola de videojuegos) y la convierte en luz para proyectarla en una pantalla o superficie plana.', -60);
 infospot10.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;"> Este mueble de madera rústica en tonos cálidos de marrón y beige añade un toque natural y acogedor a la habitación. Su diseño elegante y funcional complementa perfectamente el ambiente de montaña, creando una atmósfera cálida y armoniosa.</div>';
 panorama.add(infospot10);
+
+
+
+
+viewer = new PANOLENS.Viewer({ container: container });
+viewer.add(panorama);
