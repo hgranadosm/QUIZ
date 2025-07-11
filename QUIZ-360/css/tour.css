@@ -1,41 +1,63 @@
-    body {
-        overflow-x: hidden;
-    }
-    /*width: 2500px;
-        height: 790px;
-        height: 100vh
-    */
+
+/* ------------- PORTADA ------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imagenes/portada.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+       background-color: rgba(0, 0, 0, 0.3);
+}   
+
+
+.contenido{
+    text-align: center;
+    color: white;
+}
+
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #ddd;
+}
     
-    #container_principal {
-        width: 2000px;
-        height: 650px;
-    }
     
-    .cursor {
-        cursor: pointer;
-    }
+/* ------------- TOUR ------------- */
     
-    header {
-        padding: 30px;
-        width: 100%;
-    }
+#container_principal {
+    width: 2000px;
+    height: 650px;
+}
     
-    footer {
-        padding: 45px;
-        background-color: #006aea;
-    }
+.cursor {
+    cursor: pointer;
+}
     
-    header h1 {
-        text-align: center;
-    }
-    
-    footer h2 {
-        text-align: center;
-    }
-    
-    .fondo {
-        background-color: #006aea;
-    }
+.fondo {
+    background-color: #006aea;
+}
 
 
 
