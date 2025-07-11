@@ -26,20 +26,31 @@ body {
     color: white;
 }
 
+.contenido h1{
+    margin-bottom: 15px;
+}
+
+
+.contenido p{
+    margin-bottom: 30px;
+}
 
 .boton {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: #000;
+    background-color:#9e9476;
     text-decoration: none;
-    border-radius: 5px;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
     font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.5s;
+    font-size: 18px;
 }
 
 .boton:hover {
-    background-color: #ddd;
+    background-color: #dfd5b9;
 }
     
     
