@@ -69,22 +69,13 @@ body {
     background-color: #006aea;
 }
 
-
-
-
-    /* REGLAS*/
-    /* Extra Small devices (landscape phones, 576px and down)*/
+/* ------------- REGLAS ------------- */
 
 @media (max-width: 575px) {
     #container_principal {
         max-width: 100%;
-        /* Establece un ancho máximo para el contenedor */
-        /*height: auto;*/
-        /* Permite que la altura se ajuste automáticamente */
-        /*   overflow: hidden;*/
-        /* Evita que el contenido sobresalga del contenedor */
+
         position: relative;
-        /* Ajusta la posición de los elementos internos */
     }
     iframe {
         width: 100% !important;
@@ -94,57 +85,31 @@ body {
     }
 }
 
-
-/* Small devices (landscape phones, 576px and up)*/
-
 @media (min-width: 576px) {
     #container_principal {
         max-width: 100%;
-        /* Establece un ancho máximo para el contenedor */
-        /*height: auto;*/
-        /* Permite que la altura se ajuste automáticamente */
-        /*overflow: hidden;*/
-        /* Evita que el contenido sobresalga del contenedor */
         position: relative;
-        /* Ajusta la posición de los elementos internos */
     }
     iframe {
         width: 100% !important;
     }
 }
-
-
-/* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
     #container_principal {
         max-width: 100%;
-        /* Establece un ancho máximo para el contenedor */
-        /*height: auto;*/
-        /* Permite que la altura se ajuste automáticamente */
-        /*overflow: hidden;*/
-        /* Evita que el contenido sobresalga del contenedor */
         position: relative;
-        /* Ajusta la posición de los elementos internos */
     }
     iframe {
         width: 100% !important;
     }
 }
 
-
-/* Large devices (desktops, 992px and up) */
-
 @media (min-width: 992px) {
     #container_principal {
         max-width: 100%;
-        /* Establece un ancho máximo para el contenedor */
-        /* height: auto;*/
-        /* Permite que la altura se ajuste automáticamente */
         overflow: hidden;
-        /* Evita que el contenido sobresalga del contenedor */
         position: relative;
-        /* Ajusta la posición de los elementos internos */
     }
     iframe {
         width: 100% !important;
