@@ -3,11 +3,7 @@ var panorama, viewer, container, infospot;
 
 container = document.querySelector('#container_principal');
 
-
 panorama = new PANOLENS.ImagePanorama('imagenes/habitacion360.jpg');
-
-
-
 
 //1. piano
 
@@ -40,8 +36,6 @@ infospot4.addHoverText('Esta silla de diseño contemporáneo cuenta con cojines 
 infospot4.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;"> Esta silla de diseño contemporáneo cuenta con cojines en tonos neutros que aportan confort y suavidad. Su estructura de madera natural y líneas minimalistas combinan estilo y funcionalidad. Ideal para añadir sofisticación y calidez a cualquier espacio. </div>';
 panorama.add(infospot4);
 
-
-
 //5.Lampara
 var infospot5 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot5.position.set(443 ,16 , -500);
@@ -50,7 +44,6 @@ infospot5.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9
 panorama.add(infospot5);
 
 //6. Cuadro piano
-
 var infospot6 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot6.position.set(-450 ,144 , -500);
 infospot6.addHoverText('Este cuadro abstracto, con su marco dorado, invita a la reflexión con su enigmático diseño. El cuadrado en el centro parece ser un portal hacia lo desconocido, evocando una sensación mística y espiritual. La mezcla de texturas y sombras crea un aura de misterio, transformando la habitación en un espacio donde lo visible y lo invisible se encuentran.', -60);
@@ -58,13 +51,11 @@ infospot6.element.innerHTML = '<div style="background-color: rgba(0, 0, 0, 0.8);
 panorama.add(infospot6);
 
 //7.Alfombra
-
 var infospot7 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 //var infospot7 = new PANOLENS.Infospot(50,'imagenes/info.png');
 infospot7.position.set(500 ,-467 , 172);
 infospot7.addHoverText('Click para entrar al PDF', 100);
 infospot7.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Click para entrar al PDF. <br><br>Alfombra Vintage de Felpa: Un Toque de Lujo y Confort en la Habitación de Montaña</div>';
-
 
 infospot7.addEventListener('click', function() {
     window.open("pdf/alfombra.pdf", "_blank");
@@ -78,8 +69,6 @@ infospot8.addHoverText('Este cuadro abstracto en tonos oscuros presenta formas d
 infospot8.element.innerHTML = '<img src="imagenes/sofa.jpg" width="300px" height="240"><div style="background-color:  rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Este sillón, tapizado con cuero de alta calidad, es una pieza única  gracias a su diseño y acabado artesanal. Su suavidad y durabilidad, lo convierten en un elemento ideal para ofrecer a nuestros huéspedes una experiencia de lujo y confort.</div>';
 panorama.add(infospot8);
 
-
-
 //9 .Guitarra
 var infospot9 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot9.position.set(-400 ,-500 , 365);
@@ -90,16 +79,12 @@ infospot9.element.innerHTML = `
     </div>`;
 panorama.add(infospot9);
 
-
-
 //10. Mueble
 var infospot10 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot10.position.set(500 ,-219 , 265);
 infospot10.addHoverText('Un video beam o proyector es un dispositivo electrónico que recibe una señal de video desde una fuente externa (como un computador, un reproductor de DVD, un celular o una consola de videojuegos) y la convierte en luz para proyectarla en una pantalla o superficie plana.', -60);
 infospot10.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;"> Este mueble de madera rústica en tonos cálidos de marrón y beige añade un toque natural y acogedor a la habitación. Su diseño elegante y funcional complementa perfectamente el ambiente de montaña, creando una atmósfera cálida y armoniosa.</div>';
 panorama.add(infospot10);
-
-
 
 
 viewer = new PANOLENS.Viewer({ container: container });
