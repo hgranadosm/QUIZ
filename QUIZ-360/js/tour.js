@@ -58,7 +58,20 @@ infospot7.addHoverText('Click para entrar al PDF', 100);
 infospot7.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Click para entrar al PDF. <br><br>Alfombra Vintage de Felpa: Un Toque de Lujo y Confort en la Habitación de Montaña</div>';
 
 infospot7.addEventListener('click', function() {
-    window.open("pdf/alfombra.pdf", "_blank");
+    Swal.fire({
+        title: '¿Deseas ver el PDF?',
+        text: 'Estás a punto de abrir el documento sobre la Alfombra Vintage',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: ' rgba(153, 91, 10, 0.9)',
+        cancelButtonColor: ' rgba(133, 18, 18, 0.9)',
+        confirmButtonText: 'Sí, abrir PDF',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("pdf/alfombra.pdf", "_blank");
+        }
+    });
 });
 panorama.add(infospot7);
 
