@@ -47,7 +47,7 @@ panorama.add(infospot5);
 var infospot6 = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
 infospot6.position.set(-450 ,144 , -500);
 infospot6.addHoverText('Este cuadro abstracto, con su marco dorado, invita a la reflexión con su enigmático diseño. El cuadrado en el centro parece ser un portal hacia lo desconocido, evocando una sensación mística y espiritual. La mezcla de texturas y sombras crea un aura de misterio, transformando la habitación en un espacio donde lo visible y lo invisible se encuentran.', -60);
-infospot6.element.innerHTML = '<div style="background-color: rgba(0, 0, 0, 0.8); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Este cuadro abstracto, con su marco dorado, invita a la reflexión con su enigmático diseño. El cuadrado en el centro parece ser un portal hacia lo desconocido, evocando una sensación mística y espiritual. La mezcla de texturas y sombras crea un aura de misterio, transformando la habitación en un espacio donde lo visible y lo invisible se encuentran.</div>';
+infospot6.element.innerHTML = '<div style="background-color: rgba(99, 58, 5, 0.9); color:#fff; border-radius: 5px; padding: 10px; font-size: 14px; width: 300px;">Este cuadro abstracto, con su marco dorado, invita a la reflexión con su enigmático diseño. El cuadrado en el centro parece ser un portal hacia lo desconocido, evocando una sensación mística y espiritual. La mezcla de texturas y sombras crea un aura de misterio, transformando la habitación en un espacio donde lo visible y lo invisible se encuentran.</div>';
 panorama.add(infospot6);
 
 //7.Alfombra
